@@ -3,16 +3,17 @@ CREATE DATABASE INJECTION;
 USE INJECTION;
 
 CREATE TABLE EMPLOYEE(
-	userid varchar(45),
-	password varchar(45),
-	PRIMARY KEY(userid)
+	id int,
+	usuario varchar(200),
+	contraseña varchar(200),
+	PRIMARY KEY(id)
 
 );
 
 INSERT INTO EMPLOYEE VALUES
-('0001','cisco1'),
-('0002','cisco2'),
-('0003','cisco3'),
-('0004','cisco4'),
-('0005','cisco5'),
-('0006','cisco6');
+(1,'Efren','cisco1'),
+(2,'Felipe','cisco2'),
+(3,'Luis','cisco3'),
+(4,'Aldana','cisco4'),
+(5,'Rafael','cisco5'),
+(6,'Dario','cisco6');
