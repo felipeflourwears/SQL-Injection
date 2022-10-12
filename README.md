@@ -24,3 +24,8 @@ Una vez probado el sitio validando los usuarios del database, probar los comando
 | `'or'1'='1`      | `'or'1'='1` | Exitoso |
 | `Efren`      | `' OR usuario='Efren' -- ` |Exitoso |
 | `Efren' -- `      | Lo que sea | Exitoso |
+
+Nota:
+
+-Para la segunda prueba en la contraseña al final se necesita un espacio
+-Para la tercera prueba en la parte del usuario igual se requiere de un espacio
