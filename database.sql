@@ -16,4 +16,6 @@ INSERT INTO EMPLOYEE VALUES
 (3,'Luis','cisco3'),
 (4,'Aldana','cisco4'),
 (5,'Rafael','cisco5'),
-(6,'Dario','cisco6');
+(6,'Dario','cisco6'),
+(7, "Arturo", "cisco7");
+
